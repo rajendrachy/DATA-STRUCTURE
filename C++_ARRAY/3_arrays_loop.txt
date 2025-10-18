@@ -1,0 +1,24 @@
+ # Arrays and Loop -> https://www.w3schools.com/cpp/cpp_arrays_loop.asp => w3schools_link
+
+
+
+
+
+# Loop Through an Array
+- You can loop through the array elements with the for loop.
+
+
+
+
+
+
+# The foreach Loop
+There is also a "for-each loop" (introduced in C++ version 11 (2011)), which is used exclusively to loop through elements in an array (and other data structures, like vectors and lists):
+
+Syntax
+for (type variableName : arrayName) {
+  // code block to be executed
+}
+
+
+

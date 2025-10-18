@@ -1,0 +1,15 @@
+# C++ Omit Array Size : -> https://www.w3schools.com/cpp/cpp_arrays_omit.asp => w3schools_link
+
+
+
+
+- In C++, you don't have to specify the size of the array. The compiler is smart enough to determine the size of the array based on the number of inserted values:
+
+
+
+
+
+# Fixed Size (Arrays) vs. Dynamic Size (Vectors)
+- This is because the size of an array in C++ is fixed, meaning you cannot add or remove elements after it is created.
+
+

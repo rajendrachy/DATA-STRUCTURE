@@ -1,0 +1,35 @@
+# Get Array Size: -> https://www.w3schools.com/cpp/cpp_arrays_size.asp => w3schools_link
+
+
+
+# Get Array Size : 
+- To get the size of an array, you can use the sizeof() operator:
+
+
+# eg.
+int myNumbers[5] = {10, 20, 30, 40, 50};
+cout << sizeof(myNumbers); // int size * array size => 4 * 5 => 20
+
+
+
+
+
+
+
+
+
+
+
+
+# To find out how many elements an array has, you have to divide the size of the array by the size of the first element in the array:
+Example
+int myNumbers[5] = {10, 20, 30, 40, 50};
+int getArrayLength = sizeof(myNumbers) / sizeof(myNumbers[0]);
+cout << getArrayLength;
+
+Result:
+5
+
+
+
+
